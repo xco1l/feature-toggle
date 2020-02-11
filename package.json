@@ -1,0 +1,16 @@
+{
+  "name": "feature-toggle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna",
+    "start": "lerna run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  }
+}

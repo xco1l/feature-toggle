@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "@back/*": ["../back/src/*"]
+    }
+  },
+  "include": ["src"]
+}

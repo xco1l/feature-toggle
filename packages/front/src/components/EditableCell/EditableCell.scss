@@ -1,0 +1,21 @@
+.cell {
+  &_editable {
+    position: relative;
+    &-wrap {
+      padding: 5px 12px;
+      cursor: pointer;
+    }
+
+    &__input {
+      padding: 4px 11px;
+      width: 100%;
+      border: 1px solid #4fc3f1;
+      border-radius: 4px;
+      box-shadow: 0 0 10px #abe0f5;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
